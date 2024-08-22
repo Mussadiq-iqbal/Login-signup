@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-signUp Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <form class="card" id="login-form">
+    <p class="title">Log In here!</p>
+    <div class="form">
+      <label for="Email" class="label">Email:</label>
+      <input type="email" name="Email" id="Email" class="input" required>
+    </div>
+    <div class="form">
+      <label for="Password" class="label">Password:</label>
+      <input type="password" name="password" id="password" class="input">
+    </div>
+    <div class="form">
+      <button type="submit" class="submit-button"> Log In</button>
+    </div>
+    <div class="lasttext">
+      <p>Do not have Account?
+        <a href="#" id="show-rejistration">Register</a>
+      </p>
+    </div>
+  </form>
+
+  <form class="card" id="registrationform" style="display: none;">
+    <p class="title">Register Now!</p>
+    <div class="form">
+      <label for="name" class="label">Full Name:</label>
+      <input type="text" name="full name" id="name" class="input" required>
+    </div>
+    <div class="form">
+      <label for="Email" class="label">Email:</label>
+      <input type="email" name="Email" id="Email" class="input" required>
+    </div>
+    <div class="form">
+      <label for="Password" class="label">Password:</label>
+      <input type="password" name="password" id="password" class="input">
+    </div>
+    <div class="form">
+      <button type="submit" class="submit-button"> Register</button>
+    </div>
+    <div class="lasttext">
+      <p>Already have Account?
+        <a href="#" id="show-login">LogIn</a>
+      </p>
+    </div>
+  </form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
